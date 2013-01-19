@@ -1,0 +1,16 @@
+doctype 5
+html.bLayout
+  head
+    meta(charset="utf-8")
+    title Technical ModuleGrid
+
+  body.bLayout__eBody
+
+    div#PageContent.bLayout__eWrapper
+      h1 TechModuleGrid
+
+    script(src="http://code.jquery.com/jquery-1.9.0.min.js")
+    script(src="lib/keymaster/keymaster.min.js")
+    script#TechModuleGridScript(src="app/techModuleGrid.min.js",data-options='{"stepWidth": 16, "stepHeight": 16, "subdivision": true}')
+
+
